@@ -7,7 +7,7 @@
 
         For example,arr=[1,3,5,7,9] . Our minimum sum is 1+3+5+7=16 and our maximum sum is 3+5+7+9=24. 
 
-    Url : https://www.hackerrank.com/challenges/mini-max-sum
+    Url : https://www.hackerrank.com/challenges/mini-max-sum/problem
 '''
 #!/bin/python3
 
@@ -19,7 +19,8 @@ import sys
 
 # Complete the miniMaxSum function below.
 def miniMaxSum(arr):
-    pass
+    arr = sorted(arr)
+    print(sum(arr[:-1]),sum(arr[1:]))
 if __name__ == '__main__':
     arr = list(map(int, input().rstrip().split()))
 
