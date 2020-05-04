@@ -15,7 +15,7 @@
 ## Introduction
 
 - HackerRank Algorithm Problems
-- Check [AlgorithmHackerRank](https://www.hackerrank.com/domains/algorithms)30-days-of-code) Challenge.
+- Check [AlgorithmHackerRank](https://www.hackerrank.com/domains/algorithms) Challenge.
 
 ## Get Started
 
