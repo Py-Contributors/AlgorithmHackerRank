@@ -21,7 +21,7 @@
 
 Download [Python 3](https://python.org/downloads)
 
-### **what is algorithms**
+## what is algorithms
 
 An algorithm is a set of instructions that are used to accomplish a task, such as finding the largest number in a list, removing all the red cards from a deck of playing cards, sorting a collection of names, figuring out an average movie rating from just your friend's opinion
 
@@ -29,7 +29,7 @@ It's an essential part of programming. It comes under the fundamentals of comput
 
 ![HackerRank Algorithms Solution using python and cpp(c++)](https://dev-to-uploads.s3.amazonaws.com/i/swpx5z2kbro2sw4jq0df.jpg)
 
-### **what's HackerRank**
+## what's HackerRank
 
 HackerRank is a place where programmers from all over the world come together to solve problems in a wide range of Computer Science domains such as algorithms, machine learning, or artificial intelligence, as well as to practice different programming paradigms like functional programming.
 
