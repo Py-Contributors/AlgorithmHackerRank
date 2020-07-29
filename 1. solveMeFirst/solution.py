@@ -1,6 +1,7 @@
 '''
     Topic : Algorithms
     Subtopic : SolveMeFirst
+    Language : Python
     Problem Statement : sum of the above two integers
     Url : https://www.hackerrank.com/challenges/solve-me-first/problem
 '''

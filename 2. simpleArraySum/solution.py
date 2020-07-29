@@ -1,6 +1,7 @@
 '''
     Topic : Algorithms
     Subtopic : SimpleArraySum
+    Language : Python
     Problem Statement : Print the sum of the array's elements as a single integer.
     Url : https://www.hackerrank.com/challenges/simple-array-sum/problem
 '''
