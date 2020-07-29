@@ -1,6 +1,7 @@
 '''
     Topic : Algorithms
     Subtopic : Compare The Triplet
+    Language : Python
     Problem Statement :Complete the function compareTriplets in the editor below. It must return an array of two integers, the first being Alice's score and the second being Bob's.
 
         compareTriplets has the following parameter(s):

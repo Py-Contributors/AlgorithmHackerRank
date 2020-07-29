@@ -1,27 +1,25 @@
 /*
-   * Topic : Algorithms
-   * Subtopic : SimpleArraySum
-   * Language : Python
-   * Problem Statement : Print the sum of the array's elements as a single integer.
-   * Url : https://www.hackerrank.com/challenges/simple-array-sum/problem
+    Topic : Algorithms
+    Subtopic : A Very Big Sum
+    Language : c++
+    Problem Statement : 
+        Complete the aVeryBigSum function in the editor below. It must return the sum of all array elements.
+        aVeryBigSum has the following parameter(s):
+        ar: an array of integers .
+        
+    Url :https://www.hackerrank.com/challenges/a-very-big-sum/problem
 */
-
 #include <bits/stdc++.h>
-#include <numeric>
 
 using namespace std;
 
 vector<string> split_string(string);
 
-/*
- * Complete the simpleArraySum function below.
- */
-int simpleArraySum(vector<int> ar) {
-    /*
-     * Write your code here.
-     */
-    return accumulate(ar.begin(), ar.end(), 0);
-
+// Complete the aVeryBigSum function below.
+long aVeryBigSum(vector<long> ar) {
+    
+    long long int total =  accumulate(ar.begin(), ar.end(), 0ll);
+    return total;
 }
 
 int main()
@@ -37,15 +35,15 @@ int main()
 
     vector<string> ar_temp = split_string(ar_temp_temp);
 
-    vector<int> ar(ar_count);
+    vector<long> ar(ar_count);
 
-    for (int ar_itr = 0; ar_itr < ar_count; ar_itr++) {
-        int ar_item = stoi(ar_temp[ar_itr]);
+    for (int i = 0; i < ar_count; i++) {
+        long ar_item = stol(ar_temp[i]);
 
-        ar[ar_itr] = ar_item;
+        ar[i] = ar_item;
     }
 
-    int result = simpleArraySum(ar);
+    long result = aVeryBigSum(ar);
 
     fout << result << "\n";
 
@@ -82,3 +80,4 @@ vector<string> split_string(string input_string) {
 
     return splits;
 }
+

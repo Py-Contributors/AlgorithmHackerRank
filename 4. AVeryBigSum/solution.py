@@ -1,7 +1,7 @@
 '''
     Topic : Algorithms
     Subtopic : A Very Big Sum
-
+    Language : Python
     Problem Statement : 
         Complete the aVeryBigSum function in the editor below. It must return the sum of all array elements.
         aVeryBigSum has the following parameter(s):
