@@ -3,6 +3,8 @@
 - [AlgorithmHackerRank](#algorithmhackerrank)
   - [Introduction](#introduction)
   - [Get Started](#get-started)
+  - [what is algorithms](#what-is-algorithms)
+  - [what's HackerRank](#whats-hackerrank)
   - [Difficulty Level](#difficulty-level)
   - [Usage](#usage)
   - [Support](#support)
