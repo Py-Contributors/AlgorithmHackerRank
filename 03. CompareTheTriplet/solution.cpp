@@ -35,7 +35,6 @@ vector<int> compareTriplets(vector<int> a, vector<int> b) {
         result.push_back(aliceScore);
         result.push_back(bobScore);
         return result;
-
 }
 
 int main()
