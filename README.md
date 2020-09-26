@@ -78,7 +78,5 @@ For open-source projects, Under MIT License.
 ## Author
 
 - Project: [AlgorithmHackerRank](https://www.hackerrank.com/domains/algorithms)
-- Author: CodePerfectPlus
-- Language: Python
-- Github: <https://github.com/codePerfectPlus>
-- Website: [CodePerfectPlus](https://codeperfectplus.herokuapp.com/)
+- Author: Py-Contributors
+- Language: Python, C++
