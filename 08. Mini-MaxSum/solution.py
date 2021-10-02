@@ -11,18 +11,13 @@
 '''
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
-
 # Complete the miniMaxSum function below.
 def miniMaxSum(arr):
+    """ find the minimum and maximum values that can be calculated by summing exactly four of the five integers """
     arr = sorted(arr)
-    print(sum(arr[:-1]),sum(arr[1:]))
-    
-if __name__ == '__main__':
-    arr = list(map(int, input().rstrip().split()))
+    return sum(arr[:-1]), sum(arr[1:])
 
-    miniMaxSum(arr)
+assert miniMaxSum([1, 3, 5, 7, 9]) == (16, 24)
+assert miniMaxSum([1, 2, 3, 4, 5]) == (10, 14)
+assert miniMaxSum([5, 1, 1, 5]) == (7, 11)
+assert miniMaxSum([1, 1, 1, 1, 1]) == (4, 4)
