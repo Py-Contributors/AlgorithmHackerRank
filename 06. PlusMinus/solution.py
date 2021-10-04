@@ -9,29 +9,19 @@
 '''
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
-
 # Complete the plusMinus function below.
 def plusMinus(arr):
     countPositive = 0
     countNegative =0
+    n = len(arr)
     for i in range(n):
         if arr[i] > 0:
             countPositive += 1 
         elif arr[i] < 0:
             countNegative += 1
     countZero = n - countPositive-countNegative
-    print(countPositive/n)
-    print(countNegative/n)
-    print(countZero/n)
+    print("Count Positive:", countPositive/n)
+    print("Count Negative:", countNegative/n)
+    print("Count Zero:", countZero/n)
     
-if __name__ == '__main__':
-    n = int(input())
-
-    arr = list(map(int, input().rstrip().split()))
-
-    plusMinus(arr)
+plusMinus([-4, 3, -9, 0, 4, 1])
